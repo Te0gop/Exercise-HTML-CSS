@@ -14,7 +14,7 @@
     background-color: #f7f7f7;
     border-style: 5px solid black;
     line-height: 1.4;
-
+    padding: 10px;
 }
 
 .frame {
@@ -24,6 +24,7 @@
 .cost {
     font-size: 24px;
     font-weight: bold;
+    padding-top: 5px;
 }
 
 .shipping {
@@ -31,10 +32,12 @@
     font-size: 12px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #858383;
+    padding-bottom: 15px;
 }
 
 .description {
     font-family:Arial, Helvetica, sans-serif;
+    line-height: 2;
 }
 
 .more-info:link, .more-info:visited {
@@ -52,6 +55,10 @@ button {
     text-transform: uppercase;
     font-size: 20px;
     border: none;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    margin-top: 7px
 }
 
 button:hover {
@@ -64,6 +71,7 @@ button:hover {
 ul {
     list-style-type: square;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 17px;
 }
 
 h4 {
@@ -81,43 +89,10 @@ h4 {
     margin: 40 auto;
 }
 
-.header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.cost {
-    padding-top: 5px;
-}
-
-.shipping {
-    padding-bottom: 15px;
-}
-
-.description {
-    line-height: 2;
-}
 aside {
     padding-top: 25px;
 }
 
-ul {
-    padding-left: 17px;
-}
-
-li {
-    line-height: 2;
-}
-
 li:first-child {
     padding-top: 15px;
-}
-
-button {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: center;
-    display: block;
-    width: 100%;
-    margin-top: 7px
 }
