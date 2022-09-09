@@ -1,5 +1,9 @@
 /* Shoe Store  */
 
+* {
+    margin: 0;
+}
+
 .header {
     text-align: center;
     font-family: sans-serif;
@@ -65,4 +69,55 @@ ul {
 h4 {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.frame {
+    width: 825px;
+    height: auto;
+    /* margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: auto; */
+    /* margin-top: 35px; */
+    margin: 40 auto;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cost {
+    padding-top: 5px;
+}
+
+.shipping {
+    padding-bottom: 15px;
+}
+
+.description {
+    line-height: 2;
+}
+aside {
+    padding-top: 25px;
+}
+
+ul {
+    padding-left: 17px;
+}
+
+li {
+    line-height: 2;
+}
+
+li:first-child {
+    padding-top: 15px;
+}
+
+button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 7px
 }
