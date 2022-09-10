@@ -169,3 +169,27 @@ h1::first-letter {
     font-style: normal;
     margin-right: 5px;
 }
+
+/* json sibling selector; will affect p after h3 tag  */
+h3 + p::first-line {
+    color: red;
+}
+
+h2 {
+    /* background-color: orange; */
+    position: relative;
+}
+
+/* pseudo selector ::after; making element after h2 tag and positioning him */
+h2::after {
+    content: "TOP";
+    background-color: #ffe70c;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: -10px;
+    right: -25px;
+    color: black;
+}
