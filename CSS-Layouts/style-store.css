@@ -1,0 +1,156 @@
+/* Shoe Store  */
+
+* {
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #f7f7f7;
+    border-style: 5px solid black;
+    line-height: 1.4;
+    padding: 10px;
+}
+
+.frame {
+    border: 5px solid black;
+}
+
+.cost {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.shipping {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #858383;
+    padding-bottom: 15px;
+}
+
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+}
+
+.more-info:link,
+.more-info:visited {
+    color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    margin-top: 7px
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+
+ul {
+    list-style-type: square;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 17px;
+    line-height: 2;
+
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.frame {
+    width: 825px;
+    height: auto;
+    /* margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: auto; */
+    /* margin-top: 35px; */
+    margin: 40 auto;
+}
+
+aside {
+    padding-top: 25px;
+}
+
+li:first-child {
+    padding-top: 15px;
+}
+
+header {
+    position: relative;
+}
+
+h2 + p {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 7px 12px;
+    position: absolute;
+    bottom: 36;
+    left: -30;
+}
+
+.box-container {
+    display: inline-block;
+}
+
+.box-container div {
+    padding: 4px;
+    float: left;        
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.box-container div:first-child {
+    background-color: black;
+}
+
+.box-container div:nth-child(2) {
+    background-color: blue;
+}
+
+.box-container div:nth-child(3) {
+    background-color: red;
+}
+
+.box-container div:nth-child(4) {
+    background-color: orange;
+}
+
+.box-container div:nth-child(5) {
+    background-color: green;
+}
+
+.box-container div:nth-child(6) {
+    background-color: brown;
+}
