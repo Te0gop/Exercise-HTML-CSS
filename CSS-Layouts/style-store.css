@@ -150,7 +150,7 @@ h2 + p {
     background-color: brown;
 }
 
-.wrapping-container {
+/* .wrapping-container {
     display: inline-block;
 }
 .image-box {
@@ -198,4 +198,43 @@ h2 + p {
 .details-box li {
     line-height: 1.5;
     padding-bottom: 12px;
+} */
+
+.wrapping-container {
+    display: flex;
+    gap: 40px;
+}
+
+.middle-box {
+    flex: 1;
+}
+
+.details-box {
+    flex: 1;
+}
+
+.shipping-cost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shipping {
+    padding-bottom: 0;
+}
+
+.middle-box, .details-box {
+    margin-top: 25px;
+}
+
+.details-box li {
+    line-height: 1.5;
+    padding-bottom: 12px;
+}
+
+.middle-box .description {
+    line-height: 1.5;
+    padding: 15 0 10 0;
+}
+.middle-box .more-info {
+    padding-bottom: 15px;
 }
