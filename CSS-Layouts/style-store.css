@@ -198,6 +198,7 @@ h2 + p {
     padding-bottom: 12px;
 } */
 
+/* CSS FLEX LAYOUT */
 .wrapping-container {
     display: flex;
     gap: 40px;
@@ -240,4 +241,15 @@ h2 + p {
 }
 .middle-box .more-info {
     padding-bottom: 15px;
+}
+
+/* CSS GRID LAYOUT */
+article {
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr;
+    column-gap: 40px;
+}
+
+aside {
+    grid-column: 1 / -1;
 }
