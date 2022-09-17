@@ -54,10 +54,9 @@ h2 {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 16px 32px;
   display: inline-block;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .btn:hover,
@@ -179,12 +178,16 @@ h3 {
 }
 
 .chair-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
 }
 
 .chair-price {
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  align-items: center;
+  font-size: 16px;
 }
 
 footer {
