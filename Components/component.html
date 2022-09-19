@@ -32,11 +32,68 @@
             line-height: 1;
         }
 
+        img {
+            height: 200px;
+            border-radius: 8px;
+            transform: scale(1.5);
+        }
+
+        .carousel {
+            width: 800px;
+            margin: 100px auto;
+            background-color: #087f5b;
+            padding: 32px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .testemonial-text {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-bottom: 32px;
+            color: #e6fcf5;
+        }
+        .testemonial-author {
+            font-size: 14px;
+            margin-bottom: 4px;
+            color: #c3fae8;
+        }
+        .testemonial-job {
+            font-size: 12px;    
+            color: #c3fae8;
+        }
+
     </style>
 </head>
 
 <body>
-    
+    <div class="carousel">
+        <img src="maria.jpg" alt="Maria de Almeida">
+        <blockquote class="testemonial">
+            <p class="testemonial-text">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, libero tempore. Ratione perspiciatis
+                quos quo nesciunt cum excepturi. Porro sed quam perspiciatis maxime magni sint officiis quas iure
+                possimus harum?."
+            </p>
+            <p class="testemonial-author">Maria de Almeida</p>
+            <p class="testemonial-job">Senior Product Manager at EDP Comercial</p>
+        </blockquote>
+        <button class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="btn-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+        </button>
+        <button class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="btn-icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+        </button>
+    </div>
 </body>
 
 </html>
