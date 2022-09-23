@@ -26,7 +26,10 @@ Paragraph default:  1.6
 ---- 02 COLORS
 
 - Primary: #e67e22
-- Tints: #fdf2e9
+- Tints: 
+#fdf2e9 
+#fae5d3
+
 - Shades: #cf711f
 - Accents:
 - Greys: 
@@ -49,67 +52,81 @@ Default: 0.9rem
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: "Rubik", sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
-  }
-  
-  html {
+}
+
+html {
     /*   font-size: 10px; */
     /*   10px / 16px = 0.625 = 62.5%  */
     /*   Percentage of user's browser font-size setting */
     font-size: 62.5%;
-  }
-  
-  /* ************************* */
-  /*  GENERAL REUSABLE COMPONENTS */
-  /* ************************* */
-  
-  .container {
+}
+
+/* ************************* */
+/*  GENERAL REUSABLE COMPONENTS */
+/* ************************* */
+
+.container {
     max-width: 120rem;
     padding: 0 3.2rem;
     margin: 0 auto;
-  }
-  
-  .grid {
+}
+
+.grid {
     display: grid;
-    gap: 9.6rem;
-  }
-  
-  .grid--2-cols {
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.grid--2-cols {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .grid--3-cols {
+}
+
+.grid--3-cols {
     grid-template-columns: repeat(3, 1fr);
-  }
-  .grid--4-cols {
+}
+
+.grid--4-cols {
     grid-template-columns: repeat(4, 1fr);
-  }
-  
-  .heading-primary,
-  .heading-secondary {
+}
+
+.grid--center-v {
+    align-items: center;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
     line-height: 1.05;
     color: #333;
     letter-spacing: -0.5px;
-  }
-  
-  .heading-primary {
+}
+
+.heading-primary {
     font-size: 5.2rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
-  }
-  
-  .heading-secondary {
+}
+
+.heading-secondary {
     font-size: 4.4rem;
     line-height: 1.2;
     margin-bottom: 9.6rem;
-  }
-  
-  .subheading {
+}
+
+.heading-tertiary {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
+}
+
+.subheading {
     display: block;
     font-size: 1.6rem;
     font-weight: 500;
@@ -117,10 +134,10 @@ Default: 0.9rem
     text-transform: uppercase;
     margin-bottom: 1.6rem;
     letter-spacing: 0.75px;
-  }
-  
-  .btn:link,
-  .btn:visited {
+}
+
+.btn:link,
+.btn:visited {
     display: inline-block;
     background-color: #e67e22;
     color: #fff;
@@ -131,36 +148,36 @@ Default: 0.9rem
     text-decoration: none;
     /*  Put transition on original "state"  */
     transition: background-color 0.3s;
-  }
-  
-  .btn--full:link,
-  .btn--full:visited {
+}
+
+.btn--full:link,
+.btn--full:visited {
     background-color: #e67e22;
     color: #fff;
-  }
-  
-  .btn--full:hover,
-  .btn--full:active {
+}
+
+.btn--full:hover,
+.btn--full:active {
     background-color: #cf711f;
     color: #fff;
-  }
-  
-  .btn--outline:link,
-  .btn--outline:visited {
+}
+
+.btn--outline:link,
+.btn--outline:visited {
     background-color: #fff;
     color: #555;
-  }
-  
-  .btn--outline:hover,
-  .btn--outline:active {
+}
+
+.btn--outline:hover,
+.btn--outline:active {
     background-color: #fdf2e9;
     color: #555;
     /*   border: 3px solid white; */
     /*   Trick to add border inside  */
     box-shadow: inset 0 0 0 3px #fff;
-  }
-  
-  /* helper class  */
-  .margin-right-sm {
+}
+
+/* helper class  */
+.margin-right-sm {
     margin-right: 1.6rem !important;
-  }
+}
